@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Step 1</title>
+    <style>
+       fieldset{
+width: 660px;
+padding: 20px;
+text-align: left;
+margin: 10px 20px;}
+legend{
+text-align: left;
+font-size: 24px;
+}
+label{
+    margin-top: 100px;
+    width: 250px;
+    font-size: 24px;
+    
+}
+input{
+    font-size: 80%;
+    width: 75%;
+    opacity: 0.8;
+}
+::placeholder{
+    font-size: 18px;
+    padding: 5px 5px;
+}
+    </style>
+</head>
+<body>
+    <center>
+        <table width="700px" cellpadding="10px" cellspacing="0px" style="margin-top: 50px; margin-bottom: 50px;">
+            <tr style="font-size: 24px; text-align: center;">
+                <td bgcolor="#6495ED"><b>Step 1: Account</b></td>
+                <td bgcolor="#C0C0C0"><b>Step 2: Personal Details</b></td>
+                <td bgcolor="#C0C0C0"><b>Step 3: Your Review</b></td>
+            </tr>
+        </table>
+
+        <form action="https://www.example.com" method="get" style="margin-top: 20px;">
+            <fieldset>
+                
+                <legend><b>Account</b></legend>
+                <label><b>Email Address:</b><br>
+                <input type="text" name="email" placeholder="Enter Email"></label><br><br>
+                <label><b>Password:</b><br>
+                <input type="password" name="pass" placeholder="Enter Password"></label><br><br>
+                <label><b>Confirm Password:</b><br>
+                <input type="password" name="confirmpass" placeholder="Confirm Password"></label><br> <br>
+                <a href="index.html"><img src="back.png" alt="backbutton" height="40px" width="150px"></a>
+                <a href="step2.html"><img src="next.png" alt="nextbutton" height="40px" width="150px"></a>
+
+            
+            </fieldset>
+        </form>
+    </center>
+</body>
+</html>

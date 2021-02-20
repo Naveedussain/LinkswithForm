@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Step2</title>
+    <style>
+        fieldset{
+            width: 50%;
+            padding: 20px;
+            text-align: left;
+            margin: 10px 20px;}
+        legend{
+            text-align: left;
+            font-size: 24px;
+        }
+        label{
+            margin-top: 100px;
+            width: 250px;
+            font-size: 24px;
+            
+        }
+        input{
+            font-size: 80%;
+            width: 75%;
+            opacity: 0.8;
+        }
+        ::placeholder{
+            font-size: 18px;
+            padding: 5px 5px;
+        }
+        .box{
+            border: 1px solid lightgray;
+             width: 20px; 
+            height: 20px;
+
+        }
+    </style>
+</head>
+<body>
+    <center>
+        <table width="52%" cellpadding="10px" cellspacing="0px" style="margin-top: 50px; margin-bottom: 50px;">
+            <tr style="font-size: 24px; text-align: center;">
+                <td bgcolor="#66f282"><b>Step 1: Account</b></td>
+                <td bgcolor="#6495ED"><b>Step 2: Personal Details</b></td>
+                <td bgcolor="#C0C0C0"><b>Step 3: Your Review</b></td>
+            </tr>
+        </table>
+
+        <form action="https://www.example.com" method="get" style="margin-top: 20px;">
+            <fieldset>
+                
+                <legend><b>Personal Details</b></legend>
+                <label><b>First Name:</b><br>
+                    <input type="text" name="email" placeholder="Enter First Name">
+                </label><br><br>
+                <label><b>Last Name:</b><br>
+                    <input type="text" name="email" placeholder="Enter Last Name">
+                 </label><br><br>
+
+                 
+                 <table cellspacing="10px">
+                    <label><b>CNIC:</b><br>
+
+                        <tr>
+                            <td class="box"></td>
+                            <td class="box"></td>
+                            <td class="box"></td>
+                            <td class="box"></td>
+                            <td class="box"></td>
+                            <td><b>-</b></td>
+                            <td class="box"></td>
+                            <td class="box"></td>
+                            <td class="box"></td>
+                            <td class="box"></td>
+                            <td class="box"></td>
+                            <td class="box"></td>
+                            <td class="box"></td>
+                            <td><b>-</b></td>
+                            <td class="box"></td>
+
+
+
+                         </tr>
+                    </label> 
+                 </table>
+                
+
+                <label><b>Social Link:</b><br>
+                    <input type="text" name="confirmpass" placeholder="Enter Linkedin or Facebook profile link">
+                </label><br> <br>
+                <a href="step1.html"><img src="back.png" alt="backbutton" height="40px" width="150px"></a>
+                <a href="step3.html"><img src="next.png" alt="nextbutton" height="40px" width="150px"></a>
+
+            
+            </fieldset>
+        </form>
+    </center>
+    
+</body>
+</html>

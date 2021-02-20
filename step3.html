@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Step3</title>
+    <style>
+         fieldset{
+width: 660px;
+padding: 20px;
+text-align: left;
+margin: 10px 20px;}
+legend{
+text-align: left;
+font-size: 20px;
+}
+label{
+    margin-top: 100px;
+    width: 250px;
+    font-size: 20px;
+    
+}
+
+::placeholder{
+    font-size: 18px;
+    padding: 5px 5px;
+}
+    </style>
+</head>
+<body>
+    <center>
+        <table width="52%" cellpadding="10px" cellspacing="0px" style="margin-top: 50px; margin-bottom: 50px;">
+            <tr style="font-size: 24px; text-align: center;">
+                <td bgcolor="#66f282"><b>Step 1: Account</b></td>
+                <td bgcolor="#66f282"><b>Step 2: Personal Details</b></td>
+                <td bgcolor="#6495ED"><b>Step 3: Your Review</b></td>
+            </tr>
+        </table>
+
+        <form action="https://www.example.com" method="get" style="margin-top: 20px;">
+            <fieldset>
+                
+                <legend><b>Your Review:</b></legend>
+                <label><b>How did you hear about us? </b>
+                    <select name="Medium">
+                        <option value="Select your option" selected>Select your option</option>
+                        <option value="facebook">Facebook</option>
+                        <option value="Linkedin">Linkedin</option>
+
+                    </select>
+                </label><br><br>
+                <label><b>Would you visit again?</b><br>
+                    <input type="radio" name="visit" value="yes">Yes
+                    <input type="radio" name="visit" value="no">No
+                    <input type="radio" name="visit" value="maybe">Maybe
+                </label><br><br>
+
+                <label><b>Comments:</b> <br>
+                    <textarea name="comment" cols="40" rows="4">Enter your comments here...</textarea>
+                </label> <br>
+        
+                <label><b>Documents:</b><br>
+                    <input type="file" name="file">
+                </label><br> <br>
+                
+                <label>
+                    <input type="checkbox" name="signup" checked>Sign me up for more updates <br><br></label>
+                <a href="step1.html"><img src="back.png" alt="backbutton" height="40px" width="150px"></a>
+                <a href="index.html"><img src="submit.png" alt="nextbutton" height="40px" width="150px"></a>
+
+
+                            
+
+            </fieldset>
+        </form>
+    </center>
+</body>
+</html>
